@@ -17,7 +17,12 @@ public class TeacherServiceImpl implements TeacherService{
     }
 
     @Override
-    public void add(Teacher teacher) {
-        teacherMapper.insert(teacher);
+    public void addTeacher(Teacher teacher) {
+        teacherMapper.addTeacher(teacher);
+    }
+
+    @Override
+    public void updateTeacher(Teacher teacher){
+        teacherMapper.updateTeacher(teacher);
     }
 }

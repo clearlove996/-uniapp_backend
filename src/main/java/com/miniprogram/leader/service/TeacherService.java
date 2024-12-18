@@ -6,5 +6,7 @@ import java.util.List;
 
 public interface TeacherService {
     public List<Teacher> list();
-    public void add(Teacher teacher);
+    public void addTeacher(Teacher teacher);
+
+    public void updateTeacher(Teacher teacher);
 }

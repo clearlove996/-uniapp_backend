@@ -1,23 +1,28 @@
 package com.miniprogram.leader.pojo;
 
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public class Teacher {
+public class Parents {
     private Integer id;
     private String name;
     private String phone;
     private String eMail;
-    private String grade;
     private Integer age;
-    private String gender;
-    private String school;
-    private String prize;
-    private String accompanyTime;
+    private Integer child_age;
+    private String child_gender;
     private String img;
+    private String address;
+
+
+    private String appointmentTime;
+    private String appointmentPlace;
+    // 电话调用前方
+    // 课程调用前方
+
 }
